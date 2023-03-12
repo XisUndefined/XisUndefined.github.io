@@ -34,6 +34,17 @@
         padding-top: 100px;
     }
 
+    /* .scrolling {
+        background-color: coral;
+        height: 100px;
+        width: 5px;
+        position: relative;
+    }
+
+    .showcase-wrapper .scrolling {
+        top: 50px;
+    } */
+
     .showcase-wrapper h3 {
         position: absolute;
     }

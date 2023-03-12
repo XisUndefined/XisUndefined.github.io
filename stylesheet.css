@@ -8,6 +8,10 @@
 
 /* style */
 
+html {
+    scroll-behavior: smooth;
+}
+
 li {
     list-style: none;
 }
@@ -85,6 +89,18 @@ body {
     margin: 10px 0;
     padding-top: 2rem;
 }
+
+/* .scrolling {
+    background-color: coral;
+    height: 70px;
+    width: 5px;
+    position: absolute;
+    top: 380px;
+}
+
+.showcase-wrapper .scrolling {
+    top: 900px;
+} */
 
 .about-wrapper {
     background-color: #f4f4f4;
@@ -183,4 +199,32 @@ h3 {
     position: relative;
     top: 5px;
     box-shadow: none;
+}
+
+footer {
+    background-color: #7c7d82;
+    color: white;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1rem calc(1rem / 1.618)
+}
+
+footer .footer-logo {
+    font-size: calc(1rem * 1.618);
+    font-weight: 900;
+    letter-spacing: calc(1rem / 1.618);
+}
+
+.footer-right {
+    font-size: calc(1rem / 1.618);
+    text-align: right;
+    line-height: 1.618rem;
+}
+
+.footer-right a {
+    text-decoration: none;
+    color: white;
 }
